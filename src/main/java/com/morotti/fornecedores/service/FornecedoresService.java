@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class FornecedorService {
+public class FornecedoresService {
     @Autowired
     private FornecedoresRepository fornecedoresRepository;
 
@@ -27,5 +27,5 @@ public class FornecedorService {
     public void deletar(Long id){
         fornecedoresRepository.deleteById(id);
     }
-    
+
 }
